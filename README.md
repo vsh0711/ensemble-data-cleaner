@@ -22,3 +22,7 @@ Why three methods instead of one?
  2. Z-score catches simple univariate extremes — a single feature value that is 4 standard deviations from the mean. 
  3. Local Outlier Factor finds contextual anomalies — records that look normal globally but are unusual within their local neighbourhood. 
  Each method has blind spots. The consensus rule means flag only when something  at least two independent methods agree — this is the ensemble principle applied to data cleaning, not just prediction.
+
+ [![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ensemble-data-cleaner-jn.streamlit.app/)
+
+# Ensemble AI Data Cleaning Tool
